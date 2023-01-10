@@ -1,0 +1,29 @@
+.dropdownContainer {
+  cursor: pointer;
+
+  .dropdownHeader {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 6px;
+    align-items: center;
+    padding: 6px 10px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.15);
+    font-weight: 500;
+    font-size: 1.1rem;
+    color: #40a4e3;
+    background: #ffffff;
+  }
+
+  .dropdownList {
+    position: absolute;
+    z-index: 100;
+    top: 56px;
+    margin-top: 0.8em;
+    background: #ffffff;
+    border: 1px solid #e5e5e5;
+    color: #40a4e3;
+    font-size: 1.1rem;
+    font-weight: 500;
+  }
+}

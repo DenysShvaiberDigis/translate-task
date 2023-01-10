@@ -1,0 +1,8 @@
+.listItem {
+  list-style: none;
+  padding: 6px 10px;
+
+  &:hover {
+    background-color: #e5e5e5;
+  }
+}

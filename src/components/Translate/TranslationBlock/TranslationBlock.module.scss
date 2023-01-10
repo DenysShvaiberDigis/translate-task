@@ -1,0 +1,35 @@
+.translationBlock {
+  flex: 1;
+
+  .translateHeading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .inputField {
+    position: relative;
+
+    .textBlock {
+      margin-top: 0.5rem;
+      width: 100%;
+      border-radius: 7px;
+      padding: 10px 30px 10px 10px;
+      font-size: 1.1rem;
+      border: 1px solid #242471;
+      resize: none;
+      outline: none;
+
+      &:focus {
+        border: 1px solid #40a4e3;
+      }
+    }
+
+    .closeIcon {
+      position: absolute;
+      right: .5rem;
+      top: 1rem;
+      cursor: pointer;
+    }
+  }
+}
