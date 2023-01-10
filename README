@@ -1,1 +1,1 @@
-To start project, clone the repository, then open the folder with project and run "npm install" in terminal. Then opened the project by clicking on the link which appears in terminal.
+To start project, clone the repository, then open the folder with project and run "npm install" in terminal. Then type "npm run dev" and open the project by clicking on the link which appears in terminal.
